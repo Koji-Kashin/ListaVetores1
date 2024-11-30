@@ -21,21 +21,21 @@ public class Exc_20 {
         int[] numeros = new int[numNúmeros];
 
         
-        System.out.println("Digite 1000 números:");
+        System.out.println("Digite 1000 numeros:");
 
         for (int i = 0; i < numNúmeros; i++) {
-            System.out.print("Número " + (i + 1) + ": ");
+            System.out.print("Numero " + (i + 1) + ": ");
             numeros[i] = ler.nextInt();
         }
 
         // A) Números na ordem inversa
-        System.out.println("\nNúmeros na ordem inversa:");
+        System.out.println("Numeros na ordem inversa:");
         for (int i = numNúmeros - 1; i >= 0; i--) {
             System.out.print(numeros[i] + " ");
         }
 
         // b) Números ímpares
-        System.out.println("\n\nNúmeros ímpares digitados:");
+        System.out.println("Numeros ímpares digitados:");
         for (int i = 0; i < numNúmeros; i++) {
             if (numeros[i] % 2 != 0) {
                 System.out.print(numeros[i] + " ");
@@ -43,7 +43,7 @@ public class Exc_20 {
         }
 
         // c) Numeros 10 a 50 (10 e 50 incluidos)
-        System.out.println("\n\nNúmeros entre 10 e 50:");
+        System.out.println("Numeros entre 10 e 50:");
         for (int i = 0; i < numNúmeros; i++) {
             if (numeros[i] >= 10 && numeros[i] <= 50) {
                 System.out.print(numeros[i] + " ");
